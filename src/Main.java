@@ -26,6 +26,19 @@ public class Main {
         schlafzimmerLampe.zustand = false;
         schlafzimmerLampe.zustandDerLampe();
 
+
+        System.out.println("============Encapsulation================");
+
+
+        Hund meinErsterHund = new Hund("Buddy","Golden",5);
+        System.out.println("Mein Hund heißt "+meinErsterHund.getName()+", seine Rasse ist "
+                + meinErsterHund.getRasse()+" und er ist "+meinErsterHund.getAlter()+ " Jahre alt.");
+
+        meinErsterHund.setName("Karabas");
+        System.out.println("Der neue Name meines Hundes ist " + meinErsterHund.getName() );
+
+
+
     }
 
 
