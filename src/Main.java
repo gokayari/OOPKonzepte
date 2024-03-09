@@ -38,6 +38,13 @@ public class Main {
         System.out.println("Der neue Name meines Hundes ist " + meinErsterHund.getName() );
 
 
+        System.out.println("============Abstraction & Inheritance================");
+
+        meinErsterHund.lärmMachen();
+        meinErsterHund.schlafen();
+
+
+
 
     }
 

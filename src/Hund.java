@@ -1,4 +1,4 @@
-public class Hund {
+public class Hund extends Tier{
 
     private String name;
     private String rasse;
@@ -28,5 +28,11 @@ public class Hund {
         return this.name = neuerName;
     }
      */
+
+    //inheritance
+    @Override
+    void lärmMachen() {
+        System.out.println("Der Hund bellt!");
+    }
 
 }
