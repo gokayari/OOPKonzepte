@@ -40,8 +40,14 @@ public class Main {
 
         System.out.println("============Abstraction & Inheritance================");
 
-        meinErsterHund.lärmMachen();
+        meinErsterHund.lärmMachen();        //Polymorphism
         meinErsterHund.schlafen();
+
+        System.out.println("============Polymorphism================");
+
+        Katze katze = new Katze();
+        katze.lärmMachen();     //Polymorphism
+        katze.schlafen();
 
 
 
