@@ -35,4 +35,10 @@ public class Hund extends Tier{
         System.out.println("Der Hund bellt!");
     }
 
+
+    @Override
+    public void schlafen(){
+        System.out.println("Der Hund schnarcht im Schlaf...zZ");    //Overriding
+    }
+
 }
