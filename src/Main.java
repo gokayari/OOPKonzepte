@@ -27,8 +27,8 @@ public class Main {
         schlafzimmerLampe.zustandDerLampe();
 
 
-        System.out.println("============Encapsulation================");
-
+        System.out.println("============================");
+        //Encapsulation:
 
         Hund meinErsterHund = new Hund("Buddy","Golden",5);
         System.out.println("Mein Hund heißt "+meinErsterHund.getName()+", seine Rasse ist "
@@ -38,18 +38,20 @@ public class Main {
         System.out.println("Der neue Name meines Hundes ist " + meinErsterHund.getName() );
 
 
-        System.out.println("============Abstraction & Inheritance================");
+        System.out.println("============================");
+        //Abstraction & Inheritance:
 
         meinErsterHund.lärmMachen();        //Polymorphism
         meinErsterHund.schlafen();
 
-        System.out.println("============Polymorphism================");
+        System.out.println("============================");
+        //Polymorphism:
 
-        Katze katze = new Katze();
+        Katze katze = new Katze("Pamuk", "Tekir", 3);
         katze.lärmMachen();     //Polymorphism
         katze.schlafen();
 
-
+        katze.befehl();         //Verwendung des super-Schlüsselworts
 
 
     }
